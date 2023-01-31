@@ -1,0 +1,14 @@
+--> first create folder in file explorer.
+     command for that is "mkdir (project name) "
+
+--> then go into that folder - command -> cd (path)
+
+--> create empty git repository in the folder -> git init
+     to check inside repository -> dir -a or dir .git
+
+--> now you can create new files or copy files.
+      to create new file - touch (filename.ext)
+     
+--> now if you create or copy  file then anyone in the world know thtat      you created or changed the file in repository.
+
+--> command to check status is - git status.
