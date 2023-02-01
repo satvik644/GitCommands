@@ -37,3 +37,16 @@
       git stash
       if you want them to come to stage again - git stash pop
       if you want to delete them permanentaly - git stash clear
+--> if you want to see file text "type" commands followed by file name.
+
+--> Now you want to connect github repository with this folder. command for that is - git remote add origin (url). Here, remote means you working with urls, add means you are adding something, origin means what is the name of the url that you are going to add.
+
+-->  
+
+
+
+
+
+
+
+
