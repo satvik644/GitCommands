@@ -9,6 +9,31 @@
 --> now you can create new files or copy files.
       to create new file - touch (filename.ext)
      
---> now if you create or copy  file then anyone in the world know thtat      you created or changed the file in repository.
+--> now if you create or copy  file then anyone in the world know thtat      you created or changed the file in repository. means if you share this repo on github publicly no one knows that you create a file.
 
 --> command to check status is - git status.
+
+-->  you want to track this status and keep repo updated publicly.
+
+--> in wedding, every guest wants to take photo on going stage. So, one by one each person go on stage and take photo and that photo will be saved in the camera and next guest will be called.
+
+--> git add . , here . means that every file in the directory will be added. also can do git add (file name)
+
+--> Now if photo is taken by mistake, guest don't want photo.
+      then you can do git restore -- staged (file name). 
+       By this you can unstage the staged file.
+
+--> you want to delete the file , rm -rf (file name)
+
+-->  Now imagine if you deleted the file by mistake. you don't want  to delete the file.
+       So you can reset to the previous commit. You can not delete commits from the middle. they are like stack i.e all the above ones will also be removed.
+       git reset (commit code)
+
+--> all the deleted commits go to the unstage area. 
+
+--> Now you want that commits i have deleted i don't want that. But i don't want those changes in commit branch.
+     So we can stash those changes like we can take them in backstage and leave there and whereever we want them we bring them on stage and use it.
+      first, add those changes git add . or file name.
+      git stash
+      if you want them to come to stage again - git stash pop
+      if you want to delete them permanentaly - git stash clear
