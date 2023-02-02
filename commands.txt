@@ -41,7 +41,9 @@
 
 --> Now you want to connect github repository with this folder. command for that is - git remote add origin (url). Here, remote means you working with urls, add means you are adding something, origin means what is the name of the url that you are going to add.
 
--->  
+--> Now does commands.txt file appear in repo. No, because you have to push the changes into the repo - git push origin master. 
+
+--> 
 
 
 
